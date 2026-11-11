@@ -1,0 +1,72 @@
+version: 2
+models:
+  - name: dim_product
+    description: "Dados sintéticos. Grão: uma linha por product_id."
+    columns:
+      - name: product_id
+        data_tests: [unique, not_null]
+  - name: dim_date
+    description: "Dados sintéticos. Grão: uma linha por day."
+    columns:
+      - name: day
+        data_tests: [unique, not_null]
+  - name: dim_ingredient
+    description: "Dados sintéticos. Grão: uma linha por ingredient_id."
+    columns:
+      - name: ingredient_id
+        data_tests: [unique, not_null]
+  - name: dim_employee
+    description: "Dados sintéticos. Grão: uma linha por employee_id."
+    columns:
+      - name: employee_id
+        data_tests: [unique, not_null]
+  - name: dim_supplier
+    description: "Dados sintéticos. Grão: uma linha por supplier_id."
+    columns:
+      - name: supplier_id
+        data_tests: [unique, not_null]
+  - name: dim_channel
+    description: "Dados sintéticos. Grão: uma linha por channel."
+    columns:
+      - name: channel
+        data_tests: [unique, not_null]
+  - name: fact_order
+    description: "Dados sintéticos. Grão: uma linha por order_id."
+    columns:
+      - name: order_id
+        data_tests: [unique, not_null]
+  - name: fact_review
+    description: "Dados sintéticos. Grão: uma linha por review_id."
+    columns:
+      - name: review_id
+        data_tests: [unique, not_null]
+  - name: fact_receipt
+    description: "Dados sintéticos. Grão: uma linha por receipt_id."
+    columns:
+      - name: receipt_id
+        data_tests: [unique, not_null]
+  - name: mart_daily
+    description: "Dados sintéticos. Grão: uma linha por day."
+    columns:
+      - name: day
+        data_tests: [unique, not_null]
+  - name: mart_menu
+    description: "Dados sintéticos. Grão: uma linha por product_id."
+    columns:
+      - name: product_id
+        data_tests: [unique, not_null]
+  - name: mart_channel
+    description: "Dados sintéticos. Grão: uma linha por channel."
+    columns:
+      - name: channel
+        data_tests: [unique, not_null]
+  - name: mart_labour
+    description: "Dados sintéticos. Grão: uma linha por day."
+    columns:
+      - name: day
+        data_tests: [unique, not_null]
+  - name: mart_inventory
+    description: "Dados sintéticos. Grão: uma linha por ingredient_id."
+    columns:
+      - name: ingredient_id
+        data_tests: [unique, not_null]

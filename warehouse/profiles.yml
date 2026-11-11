@@ -1,0 +1,7 @@
+natan_restaurant:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('RESTAURANTE_WAREHOUSE', 'data/restaurant.duckdb') }}"
+      threads: 2

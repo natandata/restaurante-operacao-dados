@@ -1,0 +1,16 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: products
+      - name: ingredients
+      - name: employees
+      - name: context
+      - name: orders
+      - name: order_items
+      - name: shifts
+      - name: reviews
+      - name: movements
+      - name: receipts
+      - name: suppliers

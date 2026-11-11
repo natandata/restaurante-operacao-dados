@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#3f3cd8"
+backgroundColor = "#fbfbfa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#161514"
+font = "sans-serif"
+chartCategoricalColors = ["#3f3cd8", "#9896eb", "#5c5955", "#b7b4ad"]
+[browser]
+gatherUsageStats = false
+[server]
+address = "127.0.0.1"
+headless = true

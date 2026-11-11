@@ -1,0 +1,23 @@
+/* Tokens transcritos do manual vigente do Natan. Ainda não é uma interface. */
+:root {
+  --brand-accent: #3f3cd8;
+  --brand-accent-soft: #eef0ff;
+  --brand-bg: #fbfbfa;
+  --brand-surface: #ffffff;
+  --brand-ink: #161514;
+  --brand-ink-indigo: #16162a;
+  --brand-text-muted: #5c5955;
+  --brand-text-nav: #6d6a63;
+  --brand-line: #e9e8e4;
+  --brand-dot: #e3e2dc;
+  --brand-font: 'Inter', system-ui, sans-serif;
+  --brand-heading-tracking: -0.02em;
+  --brand-radius-menu: 9px;
+  --brand-radius-tile: 14px;
+  --brand-radius-card: 18px;
+  --brand-radius-panel: 28px;
+  --brand-shadow-card: 0 6px 20px rgba(20, 20, 40, .04);
+  --brand-dot-step: 22px;
+}
+/* Inter não vem embutida neste pacote. Verificar distribuição/licença da fonte
+   antes de incorporá-la. Gráficos/status também precisam de texto, não só cor. */

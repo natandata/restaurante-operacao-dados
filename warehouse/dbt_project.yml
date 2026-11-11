@@ -1,0 +1,9 @@
+name: natan_restaurant
+version: '1.0'
+config-version: 2
+profile: natan_restaurant
+model-paths: [models]
+macro-paths: [macros]
+models:
+  natan_restaurant:
+    +materialized: table
