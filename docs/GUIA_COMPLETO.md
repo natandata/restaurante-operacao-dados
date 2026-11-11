@@ -383,7 +383,7 @@ O roteiro local inicia API e frontend, cria pedido, inicia preparo, conclui, reg
 
 ### CI
 
-O workflow prepara Python com uv e versão travada, roda pytest e prepara o pipeline. Outro job roda npm ci, Vitest e build. Essa configuração foi escrita e as mesmas rotinas foram executadas localmente. Ainda não existe execução de GitHub Actions vinculada a um repositório publicado desta entrega. Não colocar um badge verde de CI alegando uma execução que não aconteceu.
+O workflow prepara Python com uv e versão travada, roda pytest e prepara o pipeline. Outro job roda npm ci, Vitest e build. Essa configuração foi executada localmente e no GitHub. Em 11/11/2026 os jobs Python e frontend terminaram com sucesso na execução 43042107497 do repositório público natandata/restaurante-operacao-dados.
 
 ### Falhas úteis para demonstrar
 

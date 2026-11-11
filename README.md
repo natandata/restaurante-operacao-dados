@@ -69,7 +69,7 @@ npm run build
 
 Verificação local desta versão: 37 testes Python e quatro subcasos, 7 testes frontend, build TypeScript/Vite e 63 etapas dbt (31 modelos + 32 testes). O fluxo de navegador exercitou pedido, preparo, conclusão, recebimento, aprovação, simulador, filtro vazio e limpeza. As seis áreas React foram capturadas em PT/EN nas larguras 320, 390 e 1280px; as oito análises Streamlit também foram abertas. Há um aviso de depreciação da integração de testes Starlette/httpx, sem falha de execução.
 
-O workflow `.github/workflows/ci.yml` está configurado, mas ainda não houve execução remota no GitHub desta entrega. Não há badge de sucesso remoto.
+O workflow `.github/workflows/ci.yml` passou no GitHub em 11/11/2026: jobs Python (testes + pipeline) e frontend (testes + build). Execução verificada: https://github.com/natandata/restaurante-operacao-dados/actions/runs/43042107497 .
 
 ## Arquitetura
 
